@@ -1,0 +1,245 @@
+<html lang="en"><head>
+<meta charset="UTF-8">
+
+<title>Technical Documentation Page</title>
+<style>
+html,
+body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #e6ebff;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+
+header {
+  color: navy;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+section article {
+  color: #4d4e53;
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #b3ccff;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  }
+
+  #navbar {
+    background-color: #9999ff;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+
+  code {
+    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    min-width: 233px;
+  }
+}
+</style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</head>
+<body translate="no">
+<nav id="navbar">
+<header>Lorem Ipsum Code</header>
+<ul>
+<li><a class="nav-link" href="#Aliquam_nec_felis">Aliquam nec felis</a></li>
+<li>
+<a class="nav-link" href="#In_hac_habitasse">In hac habitasse</a>
+</li>
+<li>
+<a class="nav-link" href="#Lorem_ipsum">Lorem ipsum</a>
+</li>
+<li><a class="nav-link" href="#Fusce_non_libero">Fusce non libero</a></li>
+<li><a class="nav-link" href="#Suspendisse_vulputate">Suspendisse vulputate</a></li>
+</ul>
+</nav>
+<main id="main-doc">
+<section class="main-section" id="Aliquam_nec_felis">
+<header>Aliquam nec felis</header>
+<article>
+<p>
+Aliquam nec felis at velit suscipit fringilla. Quisque a posuere nunc. Phasellus diam sapien, mattis et lorem vel, varius finibus orci. Duis tortor mauris, sagittis id elit vel, laoreet sollicitudin felis. In ut felis nec ex pellentesque semper quis blandit est. Suspendisse vulputate orci leo, non laoreet turpis bibendum eu. Fusce hendrerit, est eget accumsan faucibus, dolor purus iaculis odio, vitae euismod nibh quam sed nibh. Ut id justo fermentum, blandit leo vitae, imperdiet erat. Aenean commodo orci ut diam condimentum tristique. Sed pulvinar dolor diam, eget tristique lorem tincidunt ut. In porttitor mi vitae nisl suscipit, at suscipit erat tempus. Aenean odio sapien, lobortis sit amet mi at, bibendum dignissim est. Ut interdum ante sollicitudin, vestibulum sem pretium, consectetur urna.
+</p>
+    <code>function changeColor(element, event) { ... }</code>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec felis at velit suscipit fringilla. Quisque a posuere nunc. Phasellus diam sapien, mattis et lorem vel, varius finibus orci. Duis tortor mauris, sagittis id elit vel, laoreet sollicitudin felis. In ut felis nec ex pellentesque semper quis blandit est. Suspendisse vulputate orci leo, non laoreet turpis bibendum eu. Fusce hendrerit, est eget accumsan faucibus, dolor purus iaculis odio, vitae euismod nibh quam sed nibh. Ut id justo fermentum, blandit leo vitae, imperdiet erat. Aenean commodo orci ut diam condimentum tristique. Sed pulvinar dolor diam, eget tristique lorem tincidunt ut. In porttitor mi vitae nisl suscipit, at suscipit erat tempus. Aenean odio sapien, lobortis sit amet mi at, bibendum dignissim est. Ut interdum ante sollicitudin, vestibulum sem pretium, consectetur urna.
+</p>
+<ul>
+<li>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec felis at velit suscipit fringilla. Quisque a posuere nunc. Phasellus diam sapien, mattis et lorem vel, varius finibus orci. Duis tortor mauris, sagittis id elit vel, laoreet sollicitudin felis. In ut felis nec ex pellentesque semper quis blandit est. Suspendisse vulputate orci leo, non laoreet turpis bibendum eu. Fusce hendrerit, est eget accumsan faucibus, dolor purus iaculis odio, vitae euismod nibh quam sed nibh. Ut id justo fermentum, blandit leo vitae, imperdiet erat. Aenean commodo orci ut diam condimentum tristique. Sed pulvinar dolor diam, eget tristique lorem tincidunt ut. In porttitor mi vitae nisl suscipit, at suscipit erat tempus. Aenean odio sapien, lobortis sit amet mi at, bibendum dignissim est. Ut interdum ante sollicitudin, vestibulum sem pretium, consectetur urna.
+</li>
+<li>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec felis at velit suscipit fringilla. Quisque a posuere nunc. Phasellus diam sapien, mattis et lorem vel, varius finibus orci. Duis tortor mauris, sagittis id elit vel, laoreet sollicitudin felis. In ut felis nec ex pellentesque semper quis blandit est. Suspendisse vulputate orci leo, non laoreet turpis bibendum eu. Fusce hendrerit, est eget accumsan faucibus, dolor purus iaculis odio, vitae euismod nibh quam sed nibh. Ut id justo fermentum, blandit leo vitae, imperdiet erat. Aenean commodo orci ut diam condimentum tristique. Sed pulvinar dolor diam, eget tristique lorem tincidunt ut. In porttitor mi vitae nisl suscipit, at suscipit erat tempus. Aenean odio sapien, lobortis sit amet mi at, bibendum dignissim est. Ut interdum ante sollicitudin, vestibulum sem pretium, consectetur urna.
+</li>
+</ul>
+</article>
+</section>
+<section class="main-section" id="In_hac_habitasse">
+<header>In hac habitasse</header>
+<article>
+<p>In hac habitasse platea dictumst. Fusce non libero ac mauris tristique vulputate in sed justo. Nam lorem metus, eleifend vitae leo sit amet, elementum pellentesque lacus.</p>
+<ul>
+<li>
+In hac habitasse platea dictumst. Fusce non libero ac mauris tristique vulputate in sed justo. Nam lorem metus, eleifend vitae leo sit amet, elementum pellentesque lacus.
+</li>
+<li>In hac habitasse platea dictumst. Fusce non libero ac mauris tristique vulputate in sed justo. Nam lorem metus, eleifend vitae leo sit amet, elementum pellentesque lacus.</li>
+<li>
+In hac habitasse platea dictumst. Fusce non libero ac mauris tristique vulputate in sed justo. Nam lorem metus, eleifend vitae leo sit amet, elementum pellentesque lacus.
+</li>
+</ul>
+</article>
+</section>
+<section class="main-section" id="Lorem_ipsum">
+<header>Lorem ipsum</header>
+<article>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec felis at velit suscipit fringilla. Quisque a posuere nunc. Phasellus diam sapien, mattis et lorem vel, varius finibus orci. Duis tortor mauris, sagittis id elit vel, laoreet sollicitudin felis. In ut felis nec ex pellentesque semper quis blandit est. Suspendisse vulputate orci leo, non laoreet turpis bibendum eu. Fusce hendrerit, est eget accumsan faucibus, dolor purus iaculis odio, vitae euismod nibh quam sed nibh. Ut id justo fermentum, blandit leo vitae, imperdiet erat. Aenean commodo orci ut diam condimentum tristique. Sed pulvinar dolor diam, eget tristique lorem tincidunt ut. In porttitor mi vitae nisl suscipit, at suscipit erat tempus. Aenean odio sapien, lobortis sit amet mi at, bibendum dignissim est. Ut interdum ante sollicitudin, vestibulum sem pretium, consectetur urna.
+</p>
+    <code>The HTML document itself begins with <html> and ends with </html></code>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec felis at velit suscipit fringilla. Quisque a posuere nunc. Phasellus diam sapien, mattis et lorem vel, varius finibus orci. Duis tortor mauris, sagittis id elit vel, laoreet sollicitudin felis. In ut felis nec ex pellentesque semper quis blandit est. Suspendisse vulputate orci leo, non laoreet turpis bibendum eu. Fusce hendrerit, est eget accumsan faucibus, dolor purus iaculis odio, vitae euismod nibh quam sed nibh. Ut id justo fermentum, blandit leo vitae, imperdiet erat. Aenean commodo orci ut diam condimentum tristique. Sed pulvinar dolor diam, eget tristique lorem tincidunt ut. In porttitor mi vitae nisl suscipit, at suscipit erat tempus. Aenean odio sapien, lobortis sit amet mi at, bibendum dignissim est. Ut interdum ante sollicitudin, vestibulum sem pretium, consectetur urna.
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec felis at velit suscipit fringilla. Quisque a posuere nunc. Phasellus diam sapien, mattis et lorem vel, varius finibus orci. Duis tortor mauris, sagittis id elit vel, laoreet sollicitudin felis. In ut felis nec ex pellentesque semper quis blandit est. Suspendisse vulputate orci leo, non laoreet turpis bibendum eu. Fusce hendrerit, est eget accumsan faucibus, dolor purus iaculis odio, vitae euismod nibh quam sed nibh. Ut id justo fermentum, blandit leo vitae, imperdiet erat. Aenean commodo orci ut diam condimentum tristique. Sed pulvinar dolor diam, eget tristique lorem tincidunt ut. In porttitor mi vitae nisl suscipit, at suscipit erat tempus. Aenean odio sapien, lobortis sit amet mi at, bibendum dignissim est. Ut interdum ante sollicitudin, vestibulum sem pretium, consectetur urna.
+</p>
+</article>
+</section>
+<section class="main-section" id="Fusce_non_libero">
+<header>Fusce non libero</header>
+<article>
+Fusce non libero ac mauris tristique vulputate in sed justo. Nam lorem metus, eleifend vitae leo sit amet, elementum pellentesque lacus.
+<code>function greetMe(yourName) { alert("Hello " + yourName); }
+greetMe("World");
+</code>
+In hac habitasse platea dictumst. Fusce non libero ac mauris tristique vulputate in sed justo. Nam lorem metus, eleifend vitae leo sit amet, elementum pellentesque lacus.
+</article>
+</section>
+<section class="main-section" id="Suspendisse_vulputate">
+<header>Suspendisse vulputate</header>
+<p>
+Suspendisse vulputate orci leo, non laoreet turpis bibendum eu. Fusce hendrerit, est eget accumsan faucibus, dolor purus iaculis odio, vitae euismod nibh quam sed nibh. Ut id justo fermentum, blandit leo vitae, imperdiet erat. Aenean commodo orci ut diam condimentum tristique. Sed pulvinar dolor diam, eget tristique lorem tincidunt ut. In porttitor mi vitae nisl suscipit, at suscipit erat tempus. Aenean odio sapien, lobortis sit amet mi at, bibendum dignissim est. Ut interdum ante sollicitudin, vestibulum sem pretium, consectetur urna.
+</p>
+    <code>The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly.
+
+It must only appear once, at the top of the page (before any HTML tags).</code>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec felis at velit suscipit fringilla. Quisque a posuere nunc. Phasellus diam sapien, mattis et lorem vel, varius finibus orci. Duis tortor mauris, sagittis id elit vel, laoreet sollicitudin felis. In ut felis nec ex pellentesque semper quis blandit est. Suspendisse vulputate orci leo, non laoreet turpis bibendum eu. Fusce hendrerit, est eget accumsan faucibus, dolor purus iaculis odio, vitae euismod nibh quam sed nibh. Ut id justo fermentum, blandit leo vitae, imperdiet erat. Aenean commodo orci ut diam condimentum tristique. Sed pulvinar dolor diam, eget tristique lorem tincidunt ut. In porttitor mi vitae nisl suscipit, at suscipit erat tempus. Aenean odio sapien, lobortis sit amet mi at, bibendum dignissim est. Ut interdum ante sollicitudin, vestibulum sem pretium, consectetur urna.
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec felis at velit suscipit fringilla. Quisque a posuere nunc. Phasellus diam sapien, mattis et lorem vel, varius finibus orci. Duis tortor mauris, sagittis id elit vel, laoreet sollicitudin felis. In ut felis nec ex pellentesque semper quis blandit est. Suspendisse vulputate orci leo, non laoreet turpis bibendum eu. Fusce hendrerit, est eget accumsan faucibus, dolor purus iaculis odio, vitae euismod nibh quam sed nibh. Ut id justo fermentum, blandit leo vitae, imperdiet erat. Aenean commodo orci ut diam condimentum tristique. Sed pulvinar dolor diam, eget tristique lorem tincidunt ut. In porttitor mi vitae nisl suscipit, at suscipit erat tempus. Aenean odio sapien, lobortis sit amet mi at, bibendum dignissim est. Ut interdum ante sollicitudin, vestibulum sem pretium, consectetur urna.
+</p>
+    <code>HTML headings are defined with the <h1> to <h6> tags.
+
+        </h6> defines the least important heading. </h1> defines the most important heading</code>
+    <p>
+    Cras fermentum enim in erat finibus, nec rhoncus diam vulputate. Nulla volutpat nisi vitae dapibus congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec vitae massa eget neque commodo congue. Praesent vehicula, magna id tempus cursus, felis lorem condimentum ipsum, eu ultrices lectus lorem vel est. Suspendisse non massa ex. In vel lacus sit amet odio lacinia suscipit. Nullam ornare blandit sapien ac bibendum. Vivamus ipsum nunc, pellentesque pharetra tellus quis, elementum varius ipsum. Ut convallis velit maximus iaculis congue. Proin felis lectus, dictum eu eros non, eleifend imperdiet orci. Nunc convallis ultricies velit sit amet tristique. Curabitur purus libero, scelerisque ut venenatis sed, lobortis eget nisl. Proin dolor libero, mattis at volutpat in, imperdiet sit amet augue. Fusce pretium ornare elit, eget finibus felis facilisis sit amet. Nullam in metus volutpat leo luctus pellentesque a pharetra urna.</p>
+</section>
+
+</main>
+
+
+
+</body></html>
